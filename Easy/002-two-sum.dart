@@ -6,10 +6,10 @@ List<int> twoSum(List<int> nums, int target) {
   Map<int, int> indices = {};
 
   for (var i = 0; i < nums.length; i++) {
-    int completion = target - nums[i];
+    int complement = target - nums[i];
 
-    if (indices.containsKey(completion)) {
-      return [i, indices[completion]!];
+    if (indices.containsKey(complement)) {
+      return [i, indices[complement]!];
     }
     indices[nums[i]] = i;
   }
