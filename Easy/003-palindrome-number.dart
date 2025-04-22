@@ -3,8 +3,7 @@
 void main() {
   print(isPalindrome(121)); // true
   print(isPalindrome(-121)); // false
-  print(isPalindrome(10)); // false
-  print(isPalindrome(12321)); // true
+  
   
 }
 bool isPalindrome(int x) {
